@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <input type="text" placeholder="Insira seu nome" id="nome">
+        <div style="position: relative;">
+            <input type="password" placeholder="Insira sua senha" id="senha">
+            <span onclick="showPassword()" class="key">🔑</span>
+        </div>
+        <button onclick="login()">Entrar</button>
+    </div>
+    <div class="error-div" id="error-modal">
+        <h3>Credenciais incorretas!!!</h3>
+        <button onclick="fecharError()">Fechar</button>
+    </div>
+</body>
+</html>

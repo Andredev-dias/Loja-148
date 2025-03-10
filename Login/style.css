@@ -1,0 +1,94 @@
+:root{
+    --branco: aliceblue;
+    --escuro: #020920;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--escuro);
+    color: var(--branco)
+}
+
+.container{
+    border: 2px solid var(--branco);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 999px;
+    border: none;
+    background-color: transparent;
+    color: var(--branco);
+    border: 2px solid var(--branco);
+    width: 100%;
+}
+
+button{
+    transition: all 200ms ease-in-out;
+}
+
+button:hover{
+    color: var(--escuro);
+    background-color: var(--branco);
+    cursor: pointer;
+}
+
+.key{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    opacity: 0.7;
+    transition: all 200ms ease-in-out;
+}
+
+.key:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.2) rotate(90deg);
+}
+
+.error-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: 50%;
+    min-width: 300px;
+    background-color: lightpink;
+    color: var(--escuro);
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 999px;
+}
+
+.error-div button{
+    width: 100px;
+    background-color: var(--escuro);
+    border: 2px solid var(--escuro);
+}
+
+.error-div button:hover{
+    width: 100px;
+    background-color: var(--branco);
+    border: 2px solid var(--branco);
+}
