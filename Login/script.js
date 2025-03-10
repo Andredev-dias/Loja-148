@@ -11,7 +11,7 @@ function login(){
 
         localStorage.setItem("usuario", JSON.stringify(user))
 
-        window.location.href = "https://www.globo.com"
+        window.location.href = "../Loja"
     }else{
         document.getElementById("error-modal").style.display = "flex"
         document.getElementById("nome").style.border = "2px solid lightpink"
@@ -25,3 +25,11 @@ function fecharError(){
     document.getElementById("error-modal").style.display = "none"
 }
 
+function showPassword(){
+    var inputSenha = document.querySelector("#senha")
+    if(inputSenha.getAttribute("type") === "password"){
+        inputSenha.setAttribute("type", "text")
+    }else{
+        inputSenha.setAttribute("type", "password")
+    }
+}
