@@ -16,5 +16,23 @@
         "descricao": "Produto 3",
         "imagem":  "../Assets/Imagens/p3.webp",
         "preco": 50.0
+    },
+    {
+        "id":4,
+        "descricao": "Produto 1",
+        "imagem": "../Assets/Imagens/p1.webp",
+        "preco": 10.0
+    },
+    {
+        "id":5,
+        "descricao": "Produto 2",
+        "imagem": "../Assets/Imagens/p2.webp",
+        "preco": 20.0
+    },
+    {
+        "id":6,
+        "descricao": "Produto 3",
+        "imagem":  "../Assets/Imagens/p3.webp",
+        "preco": 50.0
     }
 ]
