@@ -70,5 +70,11 @@
         "descricao": "Produto 3",
         "imagem":  "../Assets/Imagens/p3.webp",
         "preco": 50.0
+    },
+    {
+        "id":13,
+        "descricao": "Produto 3",
+        "imagem":  "../Assets/Imagens/p3.webp",
+        "preco": 50.0
     }
 ]
