@@ -24,6 +24,7 @@ $(document).ready(function(){
 
             //cria um botao de remoção do item
             const removeButton = $("<button>")
+            .addClass("batata")
                 .text("❌")
                 .css("margin-left", "10px")
                 .click(function(){
